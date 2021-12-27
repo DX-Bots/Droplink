@@ -33,13 +33,13 @@ async def start(bot, message):
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Pdisk Links, texts & images... Than I'll convert & replace all pdisk links with your pdisk links \nMessage me @kamdev07 For more help-**")
+        "**If you send post which had Pdisk Links, texts & images... Than I'll convert & replace all pdisk links with your pdisk links \nMessage me @TeleRoid14 For more help-**")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**please contact me on @kamdev07 or for more join @pdisk_Admins**")
+        "**please contact me on @TeleRoid14 or for more join @TeleRoidGroup**")
     
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
@@ -123,7 +123,7 @@ async def new_pdisk_url(urls):
 
 '''async def remove_footer(new_List):
     for i in new_List:
-        if('https://t.me/Desi_Bhabhi_Aunty_hot_Video/41' in i):
+        if('https://t.me/KDramasFlix' in i):
             i = i.replace("41","61")
             #new_List.remove(i)
     return new_List'''
